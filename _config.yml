@@ -1,8 +1,26 @@
-layout_spectrum: 1
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+typography_spectrum: 0.5
 color:
   saturation: 0.6170213
   brandStrength: 0.9121307
   lightness: 0.7234042
+  brandColors:
+    - '#F2E2BE'
+    - '#CE9B77'
+    - '#65657F'
+    - '#9B8765'
+    - '#282620'
   rhythmicContrast: 0.6914893
-typography_spectrum: 0
+layout_spectrum: 1
 name: Kukus
